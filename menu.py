@@ -1,9 +1,7 @@
 import gpiozero
-import time
 import RPi.GPIO as GPIO
 import time
 import threading
-from sudoLed import ledOn
 from pictureDisplay import currentDisplay
 from pumpActivation import makeDrink
 
